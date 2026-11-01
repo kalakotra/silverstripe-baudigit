@@ -1,0 +1,23 @@
+---
+Name: baudigit-extensions
+---
+# ─── SilverStripe Extensions ─────────────────────────────────────────────────
+SilverStripe\Security\Member:
+  extensions:
+    - Kalakotra\Baudigit\Extensions\MemberExtension
+
+---
+Name: baudigit-i18n
+---
+# ─── i18n / Locale ───────────────────────────────────────────────────────────
+SilverStripe\i18n\i18n:
+  default_locale: 'de_DE'
+
+---
+Name: baudigit-theme
+---
+# ─── View / SSViewer ─────────────────────────────────────────────────────────
+SilverStripe\View\SSViewer:
+  themes:
+    - 'baudigit'
+    - '$default'

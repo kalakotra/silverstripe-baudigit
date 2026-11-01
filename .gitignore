@@ -1,0 +1,26 @@
+# PHP / Composer
+vendor/
+composer.lock
+
+# Node / Vite
+node_modules/
+client/dist/
+
+# Build artefacts
+*.map
+
+# SilverStripe generated
+.ss-cacheblock
+silverstripe-cache/
+assets/
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

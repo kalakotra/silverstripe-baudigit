@@ -1,0 +1,15 @@
+---
+Name: baudigit-routes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+# ─── Baudigit Module Routes ──────────────────────────────────────────────────
+# All URL routing for the baudigit module is defined here.
+# Routes are only active when the corresponding feature is enabled in config.yml.
+# The Page classes handle routing via SiteTree — these rules cover the CronJob endpoint.
+
+SilverStripe\Control\Director:
+  rules:
+    # Cron / background endpoints
+    'generate-recurring-invoice': 'Kalakotra\Baudigit\CronJobs\RecurringInvoiceGenerator'

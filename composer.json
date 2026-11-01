@@ -1,0 +1,46 @@
+{
+    "name": "kalakotra/silverstripe-baudigit",
+    "description": "Baudigit — invoice, offer, project and client management for SilverStripe 6",
+    "type": "silverstripe-vendormodule",
+    "license": "proprietary",
+    "keywords": ["silverstripe", "invoice", "offer", "project", "management"],
+    "authors": [
+        {
+            "name": "kalakotra",
+            "email": "kalakotra@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "silverstripe/framework": "^6.0",
+        "silverstripe/cms": "^6.0",
+        "mpdf/mpdf": "^8.2",
+        "horstoeko/zugferd": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kalakotra\\Baudigit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kalakotra\\Baudigit\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

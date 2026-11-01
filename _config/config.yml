@@ -1,0 +1,49 @@
+---
+Name: baudigit-config
+---
+# ─── Baudigit Feature Toggles ────────────────────────────────────────────────
+# Set any feature to false to disable that page/controller entirely.
+# When disabled, the controller's index() returns a 404 automatically.
+#
+# Example — to disable recurring invoices in your project's _config/baudigit.yml:
+#   Kalakotra\Baudigit\Controllers\RecurringInvoicePageController:
+#     enabled: false
+
+Kalakotra\Baudigit\Controllers\InvoicePageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\OfferPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\ProjectPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\ClientPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\ArticlePageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\RecurringInvoicePageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\MemberPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\SettingsPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\DashboardPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\WorkerStartPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\WorkerTasksPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\WorkerTasksHoursPageController:
+  enabled: true
+
+Kalakotra\Baudigit\Controllers\WorkerCalendarPageController:
+  enabled: true

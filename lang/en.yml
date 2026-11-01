@@ -1,0 +1,32 @@
+en:
+  Kalakotra\Baudigit\Traits\FeatureToggleTrait:
+    DISABLED: 'This feature is not available.'
+  Kalakotra\Baudigit\Controllers\InvoicePageController:
+    INVOICE_DUPLICATED: 'Invoice duplicated as draft: {number}'
+    INVOICE_SENT: 'Invoice sent to {email}'
+    INVOICE_REMINDER_SENT: 'Payment reminder sent to {email}'
+    INVOICE_CANCELLED: 'Invoice cancelled: {number}'
+    INVOICE_STATUS_CHANGED: 'Status updated'
+  Kalakotra\Baudigit\Controllers\OfferPageController:
+    OFFER_SENT: 'Offer sent to {email}'
+    OFFER_TO_INVOICE: 'Offer converted to invoice: {number}'
+    OFFER_STATUS_CHANGED: 'Status updated'
+  Kalakotra\Baudigit\Controllers\ProjectPageController:
+    PROJECT_STATUS_CHANGED: 'Status updated'
+  Kalakotra\Baudigit\Controllers\RecurringInvoicePageController:
+    GENERATED_INVOICE: 'Invoice generated: {number}'
+  Kalakotra\Baudigit\Models\Invoice:
+    SINGULARNAME: 'Invoice'
+    PLURALNAME: 'Invoices'
+  Kalakotra\Baudigit\Models\Offer:
+    SINGULARNAME: 'Offer'
+    PLURALNAME: 'Offers'
+  Kalakotra\Baudigit\Models\Project:
+    SINGULARNAME: 'Project'
+    PLURALNAME: 'Projects'
+  Kalakotra\Baudigit\Models\Client:
+    SINGULARNAME: 'Client'
+    PLURALNAME: 'Clients'
+  Kalakotra\Baudigit\Models\Article:
+    SINGULARNAME: 'Article'
+    PLURALNAME: 'Articles'

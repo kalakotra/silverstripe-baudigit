@@ -1,0 +1,5 @@
+de:
+  Kalakotra\Baudigit\Admin\ClientAdmin:
+    MENU_TITLE: 'Kunden'
+    TITLE: 'Kundenverwaltung'
+    DESCRIPTION: 'Verwalten Sie Ihre Kundeninformationen.'
